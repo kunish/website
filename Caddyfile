@@ -1,0 +1,5 @@
+:80
+
+file_server {
+  root public
+}
