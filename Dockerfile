@@ -11,8 +11,8 @@ FROM caddy:alpine
 
 WORKDIR /srv/app
 
-COPY --from=builder /data/app/public public
 COPY . .
+COPY --from=builder /data/app/public public
 
 EXPOSE 80
 
