@@ -1,6 +1,6 @@
 ## Self-Hosted Personal Website
 
-This repo is mostly used for experiment with kubernetes stuff.
+This repo is mostly used for experimenting with kubernetes stuff.
 
 ### How To Use It
 
