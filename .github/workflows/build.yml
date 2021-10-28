@@ -7,7 +7,7 @@ on:
     branches: [main]
 
 env:
-  image: kunish/website
+  images: kunish/website
 
 jobs:
   build-and-publish:
@@ -27,10 +27,7 @@ jobs:
       - uses: docker/metadata-action@v3
         id: meta
         with:
-          images: ${{ env.image }}
-          tags: |
-            type=sha
-            type=edge
+          images: ${{ env.images }}
 
       - uses: docker/build-push-action@v2
         with:
