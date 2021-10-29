@@ -40,6 +40,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD}}
 
       - run: echo "tag=$(git describe --abbrev=0 --tags)" >> $GITHUB_ENV
+      - run: echo ${{ env.tag }}
 
       - uses: docker/build-push-action@v2
         with:
