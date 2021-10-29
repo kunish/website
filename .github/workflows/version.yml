@@ -16,4 +16,7 @@ jobs:
           cache: "yarn"
 
       - run: yarn install
+
       - run: yarn semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
