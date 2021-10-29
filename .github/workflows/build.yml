@@ -2,14 +2,30 @@ name: Build & Publish Docker Image
 
 on:
   push:
-    tags:
-      - "**"
+    branches: [main]
 
 env:
   images: kunish/website
 
 jobs:
+  version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: "14"
+          cache: "yarn"
+
+      - run: yarn install
+
+      - run: yarn semantic-release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   build-and-publish:
+    needs: version
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
