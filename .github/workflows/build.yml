@@ -2,7 +2,8 @@ name: Build & Publish Docker Image
 
 on:
   push:
-    tags: ["*"]
+    tags:
+      - "**"
 
 env:
   images: kunish/website
