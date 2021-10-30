@@ -19,4 +19,4 @@ So I was thinking maybe I could document the journey and some common pitfalls I 
 
 # Let's build something amazing
 
-Hope you find something helpful here if you decide or already have been struggled to run some kubernetes goodness on your own homelab environment.
+Hope you find something helpful here if you decide or already have been struggled to deploy some kubernetes goodness on your own homelab environment.
