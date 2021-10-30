@@ -1,4 +1,9 @@
 baseURL = 'https://stack.shikun.info'
-languageCode = 'en-us'
 title = "Kunish's Website"
-theme = "ananke"
+theme = "terminal"
+
+[params]
+contentTypeName = "posts"
+fullWidthTheme = false
+centerTheme = true
+showLastUpdated = true
