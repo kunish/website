@@ -1,4 +1,4 @@
-baseURL = 'https://stack.shikun.info'
+baseURL = '/'
 title = "Kunish's Website"
 theme = "terminal"
 

@@ -5,7 +5,7 @@ WORKDIR /data/app
 COPY . .
 
 RUN apk add hugo
-RUN hugo -D
+RUN hugo
 
 FROM caddy:alpine
 
