@@ -14,15 +14,13 @@ description: "How to use cloudflared (argo tunnel) as a reverse proxy to bypass 
 - cloudflare hosted dns name
 - linux machine
 
-# Prepare
+# Installation
 
 ## Login to your linux machine via ssh
 
 ```shell
 ssh workstation
 ```
-
-## Installation
 
 Download and install the latest release version
 
@@ -90,7 +88,7 @@ Created tunnel main with id e7ed42be-1234-5678-9fbf-c3d1d964cb67
 
 The newly created certificate file `{UUID}.json` has been saved under `/etc/cloudflared` directory
 
-## Configuration
+# Configuration
 
 Create a new file named exactly `config.yml` under `/etc/cloudflared`, and the content should be as similar as the following:
 
@@ -111,7 +109,7 @@ Use cloudflared built-in dns cname command
 sudo cloudflared tunnel route dns main ghost.shikun.info
 ```
 
-## Start Systemd Service
+# Start Systemd Service
 
 ```shell
 sudo cloudflared service install
@@ -119,7 +117,7 @@ sudo cloudflared service install
 sudo systemctl enable --now cloudflared
 ```
 
-## Troubleshooting
+# Troubleshooting
 
 Checkout Systemd Logs
 
