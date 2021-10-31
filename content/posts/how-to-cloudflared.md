@@ -4,6 +4,10 @@ date: "2021-10-31"
 description: "How to use cloudflared (argo tunnel) as a reverse proxy to bypass CGNAT"
 ---
 
+# What Is Cloudflared
+
+[Cloudflared](https://github.com/cloudflare/cloudflared) (formally argo tunnel), is a free open source reverse proxy tool made by Cloudflare Team.
+
 # Prerequisite
 
 - cloudflare account
@@ -69,6 +73,8 @@ sudo mkdir /etc/cloudflared
 
 sudo mv $HOME/.cloudflared/cert.pem $_
 ```
+
+## Create Your First Tunnel
 
 Create a new tunnel called `main` (you can name it whatever you want, just for illustration purpose here)
 
