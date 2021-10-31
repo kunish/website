@@ -1,0 +1,28 @@
+baseURL: /
+title: Kunish's Website
+theme: terminal
+params:
+  contentTypeName: posts
+  readMore: Read more
+  fullWidthTheme: false
+  centerTheme: true
+  showLastUpdated: true
+  showMenuItems: 1
+  menuMore: Find Me
+  logo:
+    logoText: Kunish
+
+menu:
+  main:
+    - identifier: source-code
+      name: Source Code
+      url: "https://github.com/kunish/website"
+      weight: 1
+
+    - identifier: github
+      name: Github
+      url: "https://github.com/kunish"
+
+    - identifier: gitlab
+      name: Gitlab
+      url: "https://gitlab.shikun.info/shikun"
