@@ -7,3 +7,13 @@ contentTypeName = "posts"
 fullWidthTheme = false
 centerTheme = true
 showLastUpdated = true
+
+[[menu.main]]
+identifier = "github"
+name = "Github"
+url = "https://github.com/kunish"
+
+[[menu.main]]
+identifier = "gitlab"
+name = "Gitlab"
+url = "https://gitlab.shikun.info"
