@@ -1,6 +1,7 @@
 ---
 title: "On-Prem Kubernetes Journey"
 date: "2021-10-30"
+description: "General idea about this website"
 ---
 
 # Background
