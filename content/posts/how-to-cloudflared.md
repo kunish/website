@@ -34,7 +34,7 @@ Check if the installation is successful
 command -v cloudflared
 ```
 
-If you see the output is something like `/usr/local/bin/cloudflared`, you are good to go
+If you see the output is something like `/usr/local/bin/cloudflared`, you should be good to go
 
 ## Authentication
 
@@ -54,13 +54,13 @@ https://dash.cloudflare.com/argotunnel?callback=https%3A%2F%2Flogin.cloudflareac
 If the browser failed to open, please visit the URL above directly in your browser.
 ```
 
-Per the description says, you can just copy and paste the url into your browser address bar and hit Enter
+As the description says, just copy and paste the url into your browser address bar and hit Enter
 
-You will be directed to a cloudflare dashboard page prompting you to choose a domain name to route the traffic to
+You will be directed to a cloudflare dashboard page, prompting you to choose a domain name to route the traffic to
 
-After choosing the one you would want to use, a file called `cert.pem` will be downloaded under `$HOME/.cloudflared` directory in your linux machine which we just copied the url from
+After choosing the one you want to use, a file called `cert.pem` will be downloaded under `$HOME/.cloudflared` directory in your linux machine which we just copied the url from
 
-Move this file into `/etc/cloudflared` directory which will be used by `systemd` service
+Move this file into `/etc/cloudflared` directory which will be used by the `systemd` service
 
 If you don't have this directory, just create a empty one
 
@@ -82,11 +82,11 @@ Tunnel credentials written to /etc/cloudflared/e7ed42be-1234-5678-9fbf-c3d1d964c
 Created tunnel main with id e7ed42be-1234-5678-9fbf-c3d1d964cb67
 ```
 
-It says our newly created certificate file `{UUID}.json` has been saved under `/etc/cloudflared` directory
+The newly created certificate file `{UUID}.json` has been saved under `/etc/cloudflared` directory
 
 ## Configuration
 
-Create a new file called exactly as `config.yml` under `/etc/cloudflared`, and the content should look like this
+Create a new file named exactly `config.yml` under `/etc/cloudflared`, and the content should be similar as the following:
 
 ```yaml
 tunnel: e7ed42be-1234-5678-9fbf-c3d1d964cb67
@@ -99,7 +99,7 @@ ingress:
 
 ## DNS Traffic Routing
 
-You can use cloudflared built-in dns cname command
+Use cloudflared built-in dns cname command
 
 ```shell
 sudo cloudflared tunnel route dns main ghost.shikun.info
