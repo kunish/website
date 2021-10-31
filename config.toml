@@ -7,12 +7,14 @@ contentTypeName = "posts"
 fullWidthTheme = false
 centerTheme = true
 showLastUpdated = true
+[params.logo]
+logoText = "Kunish"
 
+[menu]
 [[menu.main]]
 identifier = "github"
 name = "Github"
 url = "https://github.com/kunish"
-
 [[menu.main]]
 identifier = "gitlab"
 name = "Gitlab"
