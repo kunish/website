@@ -86,7 +86,7 @@ The newly created certificate file `{UUID}.json` has been saved under `/etc/clou
 
 ## Configuration
 
-Create a new file named exactly `config.yml` under `/etc/cloudflared`, and the content should be similar as the following:
+Create a new file named exactly `config.yml` under `/etc/cloudflared`, and the content should be as similar as the following:
 
 ```yaml
 tunnel: e7ed42be-1234-5678-9fbf-c3d1d964cb67
