@@ -1,7 +1,11 @@
 {
   "branches": [
     "main",
-    "webhook-test"
+    {
+      "name": "develop",
+      "channel": "staging",
+      "prerelease": true
+    }
   ],
   "plugins": [
     "@semantic-release/commit-analyzer",
