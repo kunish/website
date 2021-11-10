@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "1.14.0-develop.1",
+  "version": "1.14.0-staging.1",
   "repository": "git@github.com:kunish/website.git",
   "author": "shikun <kunish.butt@gmail.com>",
   "license": "MIT",

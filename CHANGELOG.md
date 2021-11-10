@@ -1,3 +1,10 @@
+# [1.14.0-staging.1](https://github.com/kunish/website/compare/v1.14.0-develop.1...v1.14.0-staging.1) (2021-11-10)
+
+
+### Features
+
+* drop github workflows ([2c3918d](https://github.com/kunish/website/commit/2c3918d4817bfe51bb463aae2b0e22d462d86244))
+
 # [1.14.0-develop.1](https://github.com/kunish/website/compare/v1.13.0...v1.14.0-develop.1) (2021-11-10)
 
 
