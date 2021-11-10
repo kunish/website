@@ -4,7 +4,7 @@
     {
       "name": "develop",
       "channel": "staging",
-      "prerelease": true
+      "prerelease": "staging"
     }
   ],
   "plugins": [
