@@ -1,6 +1,7 @@
 {
   "branches": [
-    "main"
+    "main",
+    "webhook-test"
   ],
   "plugins": [
     "@semantic-release/commit-analyzer",
