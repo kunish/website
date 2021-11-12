@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/kunish/website/compare/v1.0.0...v1.1.0) (2021-11-12)
+
+
+### Features
+
+* add favicon.ico ([#5](https://github.com/kunish/website/issues/5)) ([01cb877](https://github.com/kunish/website/commit/01cb87759f29d0010b0f3475a987499d3dabac12))
+
 # 1.0.0 (2021-11-11)
 
 
