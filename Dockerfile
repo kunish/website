@@ -2,18 +2,19 @@ FROM alpine as builder
 
 WORKDIR /data/app
 
+RUN apk add hugo
+
 COPY . .
 
-RUN apk add hugo
 RUN hugo
 
 FROM caddy:alpine
 
 WORKDIR /srv/app
 
-COPY . .
-COPY --from=builder /data/app/public public
-
 EXPOSE 80
+
+COPY Caddyfile .
+COPY --from=builder /data/app/public public
 
 CMD ["caddy", "run"]
