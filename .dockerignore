@@ -1,5 +1,12 @@
+.git
+.gitignore
+.gitmodules
 .hugo_build.lock
+.releaserc
 
+README.md
 node_modules
+package.json
 public
 resources/_gen/
+yarn.lock

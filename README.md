@@ -4,25 +4,25 @@ This repo is mostly used for experimenting with kubernetes stuff.
 
 ### How To Use It
 
-Start local development server
+#### Start local development server
 
 ```shell
-make dev
+hugo server -D
 ```
 
-Visit [http://localhost](http://localhost)
+Visit [http://localhost:1313](http://localhost:1313)
 
 ```shell
-open http://localhost
+open http://localhost:1313
 ```
 
-Build And Tag Docker Image
+#### Build And Tag Docker Image
 
 ```shell
-make build
+docker build . -t kunish/website
 ```
 
-Push To Docker Registry
+#### Push To Docker Registry
 
 ```shell
 docker push kunish/website

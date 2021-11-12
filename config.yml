@@ -9,6 +9,7 @@ params:
   showLastUpdated: true
   showMenuItems: 1
   menuMore: Find Me
+  favicon: favicon.ico
   logo:
     logoText: Kunish
 
