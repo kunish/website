@@ -15,13 +15,13 @@ The Simple, Solid & Certified Kubernetes Distribution
 
 # Lets get the bussiness going
 
-1. Install k0sctl on your local machine
+## Install k0sctl on your local machine
 
 ```shell
 wget -O /usr/local/bin/k0sctl https://github.com/k0sproject/k0sctl/releases/latest/download/k0sctl-darwin-x64
 ```
 
-2. Configuration file
+## Configuration file
 
 Write a file named `k0sctl.yml` or `k0sctl.yaml`, and the content should looks like below
 
@@ -85,7 +85,7 @@ spec:
                   default: true
 ```
 
-3. Deploy
+## Deploy
 
 ```shell
 k0sctl apply
@@ -94,13 +94,13 @@ k0sctl kubeconfig > ~/.kube/config
 chmod 600 ~/.kube/config
 ```
 
-4. Test
+## Test
 
 ```shell
 kubectl cluster-info
 ```
 
-# Cleanup
+## Cleanup
 
 ```shell
 k0sctl reset
