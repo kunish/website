@@ -1,3 +1,17 @@
+# [1.2.0](https://github.com/kunish/website/compare/v1.1.0...v1.2.0) (2021-11-16)
+
+
+### Features
+
+* add how-to-k0s ([#6](https://github.com/kunish/website/issues/6)) ([bcfed69](https://github.com/kunish/website/commit/bcfed6981fa5b8a0966259b6f8e3139ffdb9937b))
+
+# [1.1.0](https://github.com/kunish/website/compare/v1.0.0...v1.1.0) (2021-11-12)
+
+
+### Features
+
+* add favicon.ico ([#5](https://github.com/kunish/website/issues/5)) ([01cb877](https://github.com/kunish/website/commit/01cb87759f29d0010b0f3475a987499d3dabac12))
+
 # 1.0.0 (2021-11-11)
 
 
