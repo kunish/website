@@ -2,6 +2,7 @@ baseURL: /
 title: Kunish's Website
 theme: terminal
 params:
+  themeColor: orange
   contentTypeName: posts
   readMore: Read more
   fullWidthTheme: false
