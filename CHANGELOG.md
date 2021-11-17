@@ -1,3 +1,10 @@
+# [1.3.0-staging.2](https://github.com/kunish/website/compare/v1.3.0-staging.1...v1.3.0-staging.2) (2021-11-17)
+
+
+### Bug Fixes
+
+* set themeColor explicitly otherwise the <nil> stylesheet will cause request issue ([b1f0867](https://github.com/kunish/website/commit/b1f08679a3475d296ee487793d8232df6b56cdc3))
+
 # [1.3.0-staging.1](https://github.com/kunish/website/compare/v1.2.0...v1.3.0-staging.1) (2021-11-16)
 
 
