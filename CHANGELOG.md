@@ -1,3 +1,17 @@
+# [1.3.0](https://github.com/kunish/website/compare/v1.2.0...v1.3.0) (2021-11-17)
+
+
+### Bug Fixes
+
+* **post:** numbered lists not handled properly by this theme, drop it ([7ebfacb](https://github.com/kunish/website/commit/7ebfacb668e2d233e4df5e0ee5e82541275d8514))
+* set themeColor explicitly otherwise the <nil> stylesheet will cause request issue ([b1f0867](https://github.com/kunish/website/commit/b1f08679a3475d296ee487793d8232df6b56cdc3))
+
+
+### Features
+
+* add favicon.ico ([96b179b](https://github.com/kunish/website/commit/96b179be47f6c6fada09e58fefa41c0a6a8b70da))
+* **post:** add how-to-k0s ([43720fb](https://github.com/kunish/website/commit/43720fb98ea3cb02479600d94f2d871f70002da3))
+
 # [1.3.0-staging.1](https://github.com/kunish/website/compare/v1.2.0...v1.3.0-staging.1) (2021-11-16)
 
 
